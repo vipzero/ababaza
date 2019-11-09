@@ -3,7 +3,6 @@ import {
 	Container,
 	CssBaseline,
 	Typography,
-	Grid,
 	Button,
 	createMuiTheme,
 } from '@material-ui/core'
@@ -79,7 +78,7 @@ const EyeCatch = styled.div`
 `
 
 const Header = styled.header`
-	padding: 12px;
+	padding: 24px;
 	border-bottom: 1px solid #ccc;
 	img {
 		width: 30px;
