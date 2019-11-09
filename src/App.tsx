@@ -70,10 +70,16 @@ const EyeCatch = styled.div`
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	div {
+		width: 460px;
+	}
 	${theme.breakpoints.down('sm')} {
 		flex-direction: column;
 		text-align: center;
 		align-content: center;
+		div {
+			width: 100%;
+		}
 	}
 `
 
@@ -87,6 +93,21 @@ const Header = styled.header`
 		padding-top: 4px;
 		color: #444;
 		padding-left: 16px;
+	}
+`
+
+const Row = styled.div`
+	display: flex;
+	justify-content: space-evenly;
+	${theme.breakpoints.down('sm')} {
+		flex-direction: column;
+		align-content: center;
+	}
+`
+
+const ScreenShot = styled.img`
+	width: 100%;
+	${theme.breakpoints.down('sm')} {
 	}
 `
 
@@ -104,7 +125,7 @@ function App() {
 			</Header>
 			<Container>
 				<EyeCatch>
-					<div style={{ paddingTop: '20px', width: '460px' }}>
+					<div style={{ paddingTop: '20px' }}>
 						<Title variant="h2" component="h1">
 							<span style={{ color: '#444' }}>Ababaza</span>
 							<br />A Bab Aza
@@ -122,19 +143,19 @@ function App() {
 							<Button size="large">Ababa zababaza.</Button>
 						</div>
 					</div>
-					<div style={{ width: '460px' }}>
-						<img src={abaImg} style={{ width: '500px' }}></img>
+					<div>
+						<ScreenShot src={abaImg}></ScreenShot>
 					</div>
 				</EyeCatch>
 				<div style={{ padding: '40px 0' }}>
-					<div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
+					<Row>
 						<Item sign="∋" char="A" />
 						<Item sign="∀" char="B" />
-					</div>
-					<div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
+					</Row>
+					<Row>
 						<Item sign="∠" char="B'" />
 						<Item sign="×" char="Z" />
-					</div>
+					</Row>
 				</div>
 			</Container>
 		</ThemeProvider>
