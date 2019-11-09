@@ -65,6 +65,7 @@ const Item = ({ sign, char }: { sign: string; char: string }) => (
 )
 
 const EyeCatch = styled.div`
+	margin-top: 40px;
 	width: 100%;
 	display: flex;
 	justify-content: center;
@@ -76,10 +77,19 @@ const EyeCatch = styled.div`
 	}
 `
 
+const Header = styled.div``
+
 function App() {
 	return (
 		<ThemeProvider theme={theme}>
 			<CssBaseline />
+			<Header>
+				<div style={{ display: 'flex' }}>
+					<Typography>Ab</Typography>
+					<Typography>aba</Typography>
+					<Typography>za</Typography>
+				</div>
+			</Header>
 			<Container>
 				<EyeCatch>
 					<div style={{ paddingTop: '20px', width: '460px' }}>
@@ -97,7 +107,7 @@ function App() {
 							<Button size="large" variant="outlined">
 								Aba baza →
 							</Button>
-							<Button size="large">Adaba zadabaza.</Button>
+							<Button size="large">Ababa zababaza.</Button>
 						</div>
 					</div>
 					<div style={{ width: '460px' }}>
