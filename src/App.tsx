@@ -9,7 +9,8 @@ import {
 } from '@material-ui/core'
 import { ThemeProvider } from '@material-ui/styles'
 import styled from 'styled-components'
-import abaImg from './ababaza.png'
+import abaImg from './ababazaminal.png'
+import aImg from './a.png'
 
 const Title = styled(Typography)`
 	font-weight: 800 !important;
@@ -77,7 +78,18 @@ const EyeCatch = styled.div`
 	}
 `
 
-const Header = styled.div``
+const Header = styled.header`
+	padding: 12px;
+	border-bottom: 1px solid #ccc;
+	img {
+		width: 30px;
+	}
+	p {
+		padding-top: 4px;
+		color: #444;
+		padding-left: 16px;
+	}
+`
 
 function App() {
 	return (
@@ -85,9 +97,10 @@ function App() {
 			<CssBaseline />
 			<Header>
 				<div style={{ display: 'flex' }}>
-					<Typography>Ab</Typography>
-					<Typography>aba</Typography>
-					<Typography>za</Typography>
+					<img src={aImg} />
+					<Typography>Ababaza</Typography>
+					<Typography>Bazaza</Typography>
+					<Typography>Aza</Typography>
 				</div>
 			</Header>
 			<Container>
