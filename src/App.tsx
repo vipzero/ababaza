@@ -1,17 +1,17 @@
-import React from 'react'
 import {
+	Button,
 	Container,
+	createMuiTheme,
 	CssBaseline,
 	Typography,
-	Button,
-	createMuiTheme,
 } from '@material-ui/core'
 import { ThemeProvider } from '@material-ui/styles'
+import React from 'react'
 import styled from 'styled-components'
-import abaImg from './ababazaminal.png'
 import aImg from './a.png'
+import abaImg from './ababazaminal.png'
 
-const Title = styled(Typography)`
+const Title = styled(Typography).attrs({ component: 'h1' })`
 	font-weight: 800 !important;
 	--font-sans: ;
 `
@@ -126,7 +126,7 @@ function App() {
 			<Container>
 				<EyeCatch>
 					<div style={{ paddingTop: '20px' }}>
-						<Title variant="h1">
+						<Title variant="h2">
 							<span style={{ color: '#444' }}>Ababaza</span>
 							<br />A Bab Aza
 						</Title>
