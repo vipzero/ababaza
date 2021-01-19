@@ -126,7 +126,7 @@ function App() {
 			<Container>
 				<EyeCatch>
 					<div style={{ paddingTop: '20px' }}>
-						<Title variant="h2" component="h1">
+						<Title variant="h1">
 							<span style={{ color: '#444' }}>Ababaza</span>
 							<br />A Bab Aza
 						</Title>
