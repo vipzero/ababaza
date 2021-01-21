@@ -1,0 +1,425 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+Array [
+  .c0 {
+  padding: 24px;
+  border-bottom: 1px solid #ccc;
+}
+
+.c0 img {
+  width: 30px;
+}
+
+.c0 p {
+  padding-top: 4px;
+  color: #444;
+  padding-left: 16px;
+}
+
+@media (max-width:959.95px) {
+
+}
+
+@media (max-width:959.95px) {
+
+}
+
+@media (max-width:959.95px) {
+
+}
+
+<header
+    className="c0"
+  >
+    <div
+      style={
+        Object {
+          "display": "flex",
+        }
+      }
+    >
+      <img
+        src="a.png"
+      />
+      <p
+        className="MuiTypography-root MuiTypography-body1"
+      >
+        Ababaza
+      </p>
+      <p
+        className="MuiTypography-root MuiTypography-body1"
+      >
+        Bazaza
+      </p>
+      <p
+        className="MuiTypography-root MuiTypography-body1"
+      >
+        Aza
+      </p>
+    </div>
+  </header>,
+  .c1 {
+  font-weight: 800 !important;
+}
+
+.c4 {
+  background: black;
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  text-align: center;
+  padding: 4px;
+}
+
+.c0 {
+  margin-top: 40px;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 div {
+  width: 460px;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -webkit-justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+}
+
+.c2 {
+  width: 100%;
+}
+
+@media (max-width:959.95px) {
+  .c0 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+  }
+
+  .c0 div {
+    width: 100%;
+  }
+}
+
+@media (max-width:959.95px) {
+  .c3 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+  }
+}
+
+@media (max-width:959.95px) {
+
+}
+
+<div
+    className="MuiContainer-root MuiContainer-maxWidthLg"
+  >
+    <div
+      className="c0"
+    >
+      <div
+        style={
+          Object {
+            "paddingTop": "20px",
+          }
+        }
+      >
+        <h1
+          className="MuiTypography-root c1 MuiTypography-h2"
+        >
+          <span
+            style={
+              Object {
+                "color": "#444",
+              }
+            }
+          >
+            Ababaza
+          </span>
+          <br />
+          A Bab Aza
+        </h1>
+        <h6
+          className="MuiTypography-root MuiTypography-h6"
+          style={
+            Object {
+              "color": "#555",
+              "margin": "20px 0",
+            }
+          }
+        >
+          Ababaza babaza baza za 
+          &
+           abaza aza bazaba.
+        </h6>
+        <div
+          style={
+            Object {
+              "display": "flex",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <button
+            className="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedSizeLarge MuiButton-sizeLarge"
+            disabled={false}
+            onBlur={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            <span
+              className="MuiButton-label"
+            >
+              Aba baza →
+            </span>
+          </button>
+          <button
+            className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textSizeLarge MuiButton-sizeLarge"
+            disabled={false}
+            onBlur={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            <span
+              className="MuiButton-label"
+            >
+              Ababa zababaza.
+            </span>
+          </button>
+        </div>
+      </div>
+      <div>
+        <img
+          className="c2"
+          src="ababazaminal.png"
+        />
+      </div>
+    </div>
+    <div
+      style={
+        Object {
+          "padding": "40px 0",
+        }
+      }
+    >
+      <div
+        className="c3"
+      >
+        <div
+          style={
+            Object {
+              "margin": "30px",
+              "width": "260px",
+            }
+          }
+        >
+          <div
+            className="c4"
+          >
+            <h5
+              className="MuiTypography-root MuiTypography-h5"
+            >
+              ∋
+            </h5>
+          </div>
+          <h5
+            className="MuiTypography-root MuiTypography-h5"
+            style={
+              Object {
+                "fontWeight": "bold",
+                "marginTop": "10px",
+              }
+            }
+          >
+            A
+             of Ababaza
+          </h5>
+          <p
+            className="MuiTypography-root MuiTypography-body1"
+            style={
+              Object {
+                "color": "#444",
+              }
+            }
+          >
+            Aba baza Aba baza
+          </p>
+        </div>
+        <div
+          style={
+            Object {
+              "margin": "30px",
+              "width": "260px",
+            }
+          }
+        >
+          <div
+            className="c4"
+          >
+            <h5
+              className="MuiTypography-root MuiTypography-h5"
+            >
+              ∀
+            </h5>
+          </div>
+          <h5
+            className="MuiTypography-root MuiTypography-h5"
+            style={
+              Object {
+                "fontWeight": "bold",
+                "marginTop": "10px",
+              }
+            }
+          >
+            B
+             of Ababaza
+          </h5>
+          <p
+            className="MuiTypography-root MuiTypography-body1"
+            style={
+              Object {
+                "color": "#444",
+              }
+            }
+          >
+            Aba baza Aba baza
+          </p>
+        </div>
+      </div>
+      <div
+        className="c3"
+      >
+        <div
+          style={
+            Object {
+              "margin": "30px",
+              "width": "260px",
+            }
+          }
+        >
+          <div
+            className="c4"
+          >
+            <h5
+              className="MuiTypography-root MuiTypography-h5"
+            >
+              ∠
+            </h5>
+          </div>
+          <h5
+            className="MuiTypography-root MuiTypography-h5"
+            style={
+              Object {
+                "fontWeight": "bold",
+                "marginTop": "10px",
+              }
+            }
+          >
+            B'
+             of Ababaza
+          </h5>
+          <p
+            className="MuiTypography-root MuiTypography-body1"
+            style={
+              Object {
+                "color": "#444",
+              }
+            }
+          >
+            Aba baza Aba baza
+          </p>
+        </div>
+        <div
+          style={
+            Object {
+              "margin": "30px",
+              "width": "260px",
+            }
+          }
+        >
+          <div
+            className="c4"
+          >
+            <h5
+              className="MuiTypography-root MuiTypography-h5"
+            >
+              ×
+            </h5>
+          </div>
+          <h5
+            className="MuiTypography-root MuiTypography-h5"
+            style={
+              Object {
+                "fontWeight": "bold",
+                "marginTop": "10px",
+              }
+            }
+          >
+            Z
+             of Ababaza
+          </h5>
+          <p
+            className="MuiTypography-root MuiTypography-body1"
+            style={
+              Object {
+                "color": "#444",
+              }
+            }
+          >
+            Aba baza Aba baza
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
